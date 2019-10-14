@@ -11,7 +11,7 @@ namespace Microsoft.Bot.Builder.Testing.XUnit
     /// </summary>
     /// <remarks>
     /// VS Test explorer only supports value types for data driven tests.
-    /// This class implements <see cref="IXunitSerializable"/> and serializes complex types as json
+    /// This class implements <see cref="IXunitSerializable"/> and serializes complex types as JSON
     /// so the test cases can be enumerated and displayed into VS test explorer.
     /// This also allows the developer to right click on a particular test case on VS Test explorer and run it individually.
     /// </remarks>

@@ -124,7 +124,7 @@ namespace Microsoft.Bot.Builder.Integration.AspNet.Core
         /// <remarks>
         ///     The <see cref="BotFrameworkAdapter"/> will be registered as a <see cref="ServiceLifetime.Singleton">singleton</see>.
         ///
-        ///     NOTE: Calling any of the <c>AddBot</c> overloads those will attempt to implicitly register this for you if there is no
+        ///     NOTE: Calling any of the <c>AddBot</c> overloads will attempt to implicitly register this for you if there is no
         ///     explicit <see cref="IAdapterIntegration"/> already registered in the <paramref name="services"/> collection.
         /// </remarks>
         /// <seealso cref="AddBot{TBot}(IServiceCollection, Action{BotFrameworkOptions})"/>
