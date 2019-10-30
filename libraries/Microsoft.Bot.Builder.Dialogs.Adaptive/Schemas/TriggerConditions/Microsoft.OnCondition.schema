@@ -8,14 +8,14 @@
         "condition": {
             "$role": "expression",
             "title": "Condition",
-            "description": "Condition (expression).",
+            "description": "Expression to evaluate.",
             "examples": [
                 "user.vip == true"
             ]
         },
         "actions": {
             "type": "array",
-            "description": "Sequence of actions to execute.",
+            "description": "Sequence of actions to perform.",
             "items": {
                 "$type": "Microsoft.IDialog"
             }
