@@ -2,7 +2,7 @@
     "$schema": "https://raw.githubusercontent.com/microsoft/botbuilder-dotnet/master/schemas/component.schema",
     "$role": "unionType(Microsoft.ITriggerCondition)",
     "title": "On intent recognition",
-    "description": "Actions to perform when specified intent is recognized.",
+    "description": "Actions to perform when specified user input (intent) is recognized.",
     "type": "object",
     "allOf": [
         {
@@ -13,12 +13,12 @@
                 "intent": {
                     "type": "string",
                     "title": "Intent",
-                    "description": "Name of intent."
+                    "description": "Name of user input."
                 },
                 "entities": {
                     "type": "array",
                     "title": "Entities",
-                    "description": "Required entities.",
+                    "description": "An entity is the information or value extracted from user input.",
                     "items": {
                         "type": "string"
                     }
