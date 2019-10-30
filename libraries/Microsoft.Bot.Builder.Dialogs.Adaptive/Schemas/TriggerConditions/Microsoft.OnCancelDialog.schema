@@ -2,7 +2,7 @@
     "$schema": "https://raw.githubusercontent.com/microsoft/botbuilder-dotnet/master/schemas/component.schema",
     "$role": "unionType(Microsoft.ITriggerCondition)",
     "title": "On cancel dialog",
-    "description": "Actions to perform on cancel dialog event.",
+    "description": "Actions to perform when this dialog is cancelled.",
     "type": "object",
     "allOf": [
         {
